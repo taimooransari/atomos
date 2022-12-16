@@ -1,6 +1,6 @@
 import logo from '../assets/main-logo.jpeg';
 import nameLogo from '../assets/name-logo.jpeg';
-import fb from "../assets/fb.png"
+import fb from "../assets/fb.png";
 import React from 'react';
 import style from "../style/Home.module.css";
 function HomeScreen() {

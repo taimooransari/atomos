@@ -1,28 +1,31 @@
-.main{
-    /* border: 2px solid white; */
-display: flex;
-flex-flow: column wrap;
-justify-content: space-around;
-align-items: center;
+.main {
+    border: 2px solid white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
 }
 
-.logo{
+.logo {
     width: 30%;
     height: auto;
     margin-top: 7%;
 }
-.nameLogo{
+
+.nameLogo {
     width: 30%;
     height: auto;
     margin-top: 5px;
 }
 
-.bottomLinks{
-    position: fixed;
+.bottomLinks {
+    position: absolute;
     bottom: 5px;
 }
 
-.bottomIcon{
+.bottomIcon {
     width: 10%;
     height: auto;
     margin: 4px;
@@ -30,7 +33,7 @@ align-items: center;
     cursor: pointer;
 }
 
-.bottomIcon:hover{
+.bottomIcon:hover {
 
     opacity: 1;
 }

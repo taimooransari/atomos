@@ -3,6 +3,7 @@ import atomosNameLogo from '../assets/name-logo.jpeg';
 import csecLogo from '../assets/csec.jpeg';
 import csecNameLogo from '../assets/csec-name.png';
 
+import fb from "../assets/fb.png";
 import React from 'react';
 import style from "../style/About.module.css";
 
@@ -45,6 +46,13 @@ function AboutScreen() {
 
 
 
+      </div>
+      <div className={style.bottomLinks}>
+
+        <img src={fb} className={style.bottomIcon} alt="fb-logo" />
+        <img src={fb} className={style.bottomIcon} alt="fb-logo" />
+        <img src={fb} className={style.bottomIcon} alt="fb-logo" />
+        <img src={fb} className={style.bottomIcon} alt="fb-logo" />
       </div>
     </div>
   );
