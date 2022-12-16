@@ -1,0 +1,36 @@
+.main{
+    /* border: 2px solid white; */
+display: flex;
+flex-flow: column wrap;
+justify-content: space-around;
+align-items: center;
+}
+
+.logo{
+    width: 30%;
+    height: auto;
+    margin-top: 7%;
+}
+.nameLogo{
+    width: 30%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.bottomLinks{
+    position: fixed;
+    bottom: 5px;
+}
+
+.bottomIcon{
+    width: 10%;
+    height: auto;
+    margin: 4px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.bottomIcon:hover{
+
+    opacity: 1;
+}

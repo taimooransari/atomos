@@ -12,14 +12,14 @@ import Layout from './components/layout';
 function MainScreen() {
     return (
         <div className="main_page">
-          
+
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Layout />}>
-                        <Route index  element={<HomeScreen />} />
+                        <Route index element={<HomeScreen />} />
                         <Route path="about" element={<AboutScreen />} />
-          <Route path="contact" element={<ContactScreen />} />
-          {/* <Route path="*" element={<NoPage />} /> */}
+                        <Route path="contact" element={<ContactScreen />} />
+                        {/* <Route path="*" element={<NoPage />} /> */}
                     </Route>
                 </Routes>
             </BrowserRouter>
