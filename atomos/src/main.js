@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeScreen from './containers/home';
 import ContactScreen from './containers/contact';
 import AboutScreen from './containers/about';
+import RegisterScreen from './containers/register';
 
 import Layout from './components/layout';
 // import logo from './logo.svg';
@@ -19,6 +20,7 @@ function MainScreen() {
                         <Route index element={<HomeScreen />} />
                         <Route path="about" element={<AboutScreen />} />
                         <Route path="contact" element={<ContactScreen />} />
+                        <Route path="register" element={<RegisterScreen />} />
                         {/* <Route path="*" element={<NoPage />} /> */}
                     </Route>
                 </Routes>

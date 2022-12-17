@@ -2,8 +2,16 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link as RouteLink } from "react-router-dom";
+import { Link as RouteLink, useNavigate } from "react-router-dom";
 function NavbarComponent() {
+
+    const navigate = useNavigate();
+    const navigateScreen = (path) => {
+        navigate(path);
+    }
+
+
+
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
@@ -14,27 +22,29 @@ function NavbarComponent() {
 
 
 
-                        <Nav.Link>
+                        {/* <Nav.Link>
                             <RouteLink to="/">Home</RouteLink>
                         </Nav.Link>
 
                         <Nav.Link>
 
                             <RouteLink to="/about">About</RouteLink>
-                        </Nav.Link>
+                        </Nav.Link> */}
 
 
+                        <Nav.Link onClick={() => { navigateScreen("/") }}>Home</Nav.Link>
+                        <Nav.Link onClick={() => { navigateScreen("/about") }}>About</Nav.Link>
 
-                        <Nav.Link href="contact">Contact</Nav.Link>
-                        <Nav.Link href="fee">Fee</Nav.Link>
+                        <Nav.Link onClick={() => { navigateScreen("/contact") }}>Contact</Nav.Link>
+                        <Nav.Link href="#">Fee</Nav.Link>
                         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
+                            <NavDropdown.Item href="#">Action</NavDropdown.Item>
+                            <NavDropdown.Item href="#">
                                 Another action
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            <NavDropdown.Item href="#">Something</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="#">
                                 Separated link
                             </NavDropdown.Item>
                         </NavDropdown>

@@ -1,5 +1,5 @@
-import atomosLogo from '../assets/main-logo.jpeg';
-import atomosNameLogo from '../assets/name-logo.jpeg';
+import atomosLogo from '../assets/main-logo.png';
+// import atomosNameLogo from '../assets/name-logo.jpeg';
 import csecLogo from '../assets/csec.jpeg';
 import csecNameLogo from '../assets/csec-name.png';
 
@@ -15,7 +15,7 @@ function AboutScreen() {
         <div className={style.subSection}>
 
           <img src={atomosLogo} className={style.logo} alt="atomos-logo" />
-          <img src={atomosNameLogo} className={style.nameLogo} alt="name-logo" />
+          {/* <img src={atomosNameLogo} className={style.nameLogo} alt="name-logo" /> */}
           <p className={style.desc}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Morbi ac lorem et nulla cursus accumsan a id sapien. Mauris in
             condimentum magna. Proin suscipit risus sed vestibulum cursus.
