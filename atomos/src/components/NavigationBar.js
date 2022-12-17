@@ -36,7 +36,7 @@ function NavbarComponent() {
                         <Nav.Link onClick={() => { navigateScreen("/about") }}>About</Nav.Link>
 
                         <Nav.Link onClick={() => { navigateScreen("/contact") }}>Contact</Nav.Link>
-                        <Nav.Link href="#">Fee</Nav.Link>
+                        {/* <Nav.Link href="#">Fee</Nav.Link> */}
                         <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                             <NavDropdown.Item href="#">Action</NavDropdown.Item>
                             <NavDropdown.Item href="#">
