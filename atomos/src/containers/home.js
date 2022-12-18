@@ -37,45 +37,50 @@ function HomeScreen() {
       <Button variant="dark" size='lg' onClick={registerUser}>Register</Button>
 
       <div className={style.bottomLinks}>
-        {/* <FaBeer values={{size: 30}}/> */}
         <IconContext.Provider
           value={{ color: 'black', size: '30px' }}
         >
-          <div className={style.bottomIcon}>
-            <Fb />
+          <div className={style.bottomIcon} >
+            <a href='https://www.facebook.com/huatomos/?mibextid=ZbWKwL' target="_blank" rel='noreferrer'>
+              <Fb />
+            </a>
+
           </div>
         </IconContext.Provider>
 
         <IconContext.Provider
           value={{ color: 'black', size: '35px' }}
         >
-          <div className={style.bottomIcon}>
-            <Email />
+          <div className={style.bottomIcon} >
+            <a href='mailto:atomos@habib.edu.pk' target="_blank" rel='noreferrer'>
+              <Email />
+            </a>
+
           </div>
         </IconContext.Provider>
 
         <IconContext.Provider
           value={{ color: 'black', size: '35px' }}
         >
-          <div className={style.bottomIcon}>
-            <Ig />
+          <div className={style.bottomIcon} >
+            <a href='https://www.instagram.com/huatomos/?igshid=NDk5N2NlZjQ%3D' target="_blank" rel='noreferrer'>
+              <Ig />
+            </a>
+
           </div>
         </IconContext.Provider>
 
         <IconContext.Provider
           value={{ color: 'black', size: '30px' }}
         >
-          <div className={style.bottomIcon}>
-            <Phone />
+          <div className={style.bottomIcon} >
+            <a href='tel:+923222973296' target="_blank" rel='noreferrer'>
+              <Phone />
+            </a>
+
           </div>
         </IconContext.Provider>
 
-
-
-        {/* <img src={fb} className={style.bottomIcon} alt="fb-logo" />
-        <img src={fb} className={style.bottomIcon} alt="fb-logo" />
-        <img src={fb} className={style.bottomIcon} alt="fb-logo" />
-        <img src={fb} className={style.bottomIcon} alt="fb-logo" /> */}
       </div>
     </div>
   );
