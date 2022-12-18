@@ -4,14 +4,14 @@
     flex-flow: column wrap;
     justify-content: space-around;
     align-items: center;
-
+    height: 100%;
 
 }
 
 .logo {
     width: 30%;
     height: auto;
-    margin-top: 7%;
+    margin-top: 3%;
 }
 
 .nameLogo {
@@ -23,17 +23,31 @@
 .bottomLinks {
     position: absolute;
     bottom: 5px;
+    margin-top: 5px;
 }
 
 .bottomIcon {
+    display: inline;
+
     width: 10%;
     height: auto;
     margin: 4px;
-    opacity: 0.6;
+    opacity: 0.75;
     cursor: pointer;
 }
 
 .bottomIcon:hover {
 
     opacity: 1;
+}
+
+
+@media screen and (max-width: 600px) {
+    .logo {
+        margin: 10% 0;
+        width: 70%;
+    }
+
+
+
 }

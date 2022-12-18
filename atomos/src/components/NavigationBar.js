@@ -50,7 +50,9 @@ function NavbarComponent() {
                         </NavDropdown>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets">Register</Nav.Link>
+                        {/* <Nav.Link href="#deets">Register</Nav.Link> */}
+
+                        <Nav.Link onClick={() => { navigateScreen("/register") }}>Register</Nav.Link>
                         {/* <Nav.Link eventKey={2} href="#memes">
                             Dank memes
                         </Nav.Link> */}

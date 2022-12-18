@@ -9,8 +9,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  /* background: url("./assets/Wallpapers/wallpaper3.jpeg") no-repeat center center fixed;  */
   
-  background: url("./assets/bg.jpeg") no-repeat center center fixed; 
+  background: url("./assets/Wallpapers/bg.jpeg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
