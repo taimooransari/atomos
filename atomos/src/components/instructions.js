@@ -27,7 +27,7 @@ function Instructions() {
                 </Modal.Header>
                 <Modal.Body>Instructions body content
 
-                    <ol>
+                    <ol style={{fontSize:14 }}>
 
                         <li>A team can be of 5 to 7 members including the team lead.</li>
                         <li>A team will have participate in 5 modules.</li>
@@ -37,7 +37,7 @@ function Instructions() {
                             <ul type="disc">
                                 <li>Category 1: Sciences (any 1 of 4)
                                     <ul type="circle">
-                                        <li>Kashish-e- Khla</li>
+                                        <li>Kashish-e-Khla</li>
                                         <li>Reyaziat</li>
                                         <li>Elixir Vitae</li>
                                         <li>Theodosius Apoptosis</li>
