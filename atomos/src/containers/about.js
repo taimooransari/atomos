@@ -5,10 +5,7 @@ import csecNameLogo from '../assets/csec-name.png';
 import nscLogo from '../assets/nsclogo.png';
 // import nsclogo1 from '../assets/nsclogo4.png';
 
-
-
 import { IconContext } from 'react-icons';
-
 import { MdEmail as Email } from 'react-icons/md';
 import { BsFacebook as Fb } from 'react-icons/bs';
 import { AiFillInstagram as Ig } from "react-icons/ai";
