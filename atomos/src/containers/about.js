@@ -2,6 +2,10 @@ import atomosLogo from '../assets/atomos.png';
 import atomosNameLogo from '../assets/atomos-name.png';
 import csecLogo from '../assets/csec.png';
 import csecNameLogo from '../assets/csec-name.png';
+import nscLogo from '../assets/nsclogo.png';
+// import nsclogo1 from '../assets/nsclogo4.png';
+
+
 
 import { IconContext } from 'react-icons';
 
@@ -17,22 +21,26 @@ function AboutScreen() {
   return (
     <div className={style.main}>
       <div className={style.section}>
-        <h2 className={style.heading}>About us</h2>
+        <h2 className={style.heading}>About Us</h2>
         <div className={style.subSection}>
 
           <img src={atomosLogo} className={style.logo} alt="atomos-logo" />
           <img src={atomosNameLogo} className={style.nameLogo} alt="name-atomos" />
           <p className={style.desc}>ATOMOS is Habib University's flagship Science Olympiad that is back with a new twist. ATOMOS covers a wide variety of subjects which are not just limited to the field of science. This event is structured to have individual modules having their background from one or multiple streams which include but are not limited to the Natural Sciences, Mathematics, Arts, Logic, Engineering, and Programming. The 3-day event is planned to take place on February 3rd, 4th and 5th.</p>
         </div>
-
+        <div className={style.subSection}>
+        <img src={nscLogo} className={style.nsclogo} alt="nsc-logo" />
+          <p className={style.desc}>The part of science focused on studying and understanding the strange strange world we’re part of, from molecules to cells to supermassive black holes (read: a lot of room to play!).
+              This club hopes to provides a platform for members to connect with other science enthusiasts, explore various fields and share resources, get guidance and inspiration for research and projects, and much more! To all passionately curious minds, this is your place to be!</p>
+        </div>
         <div className={style.subSection}>
 
-          <img src={csecLogo} className={style.logo} alt="cses-logo" />
+          <img src={csecLogo} className={style.logo} alt="csec-logo" />
           <img src={csecNameLogo} className={style.nameLogo} alt="name-cses" />
           <p className={style.desc}>Computer Science and Engineering Club (CSEC) Is Habib University’s leading student-led club providing students with a platform to become potent contributors to Pakistan’s Science and Research output by harmonizing scientific research within the university, facilitating the student body in their research, streamlining and synchronizing research content and facilities by disambiguation and reduction of the divide between different branches of science.</p>
+
         </div>
-
-
+        
 
       </div>
 

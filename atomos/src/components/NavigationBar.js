@@ -35,19 +35,10 @@ function NavbarComponent() {
                         <Nav.Link onClick={() => { navigateScreen("/") }}>Home</Nav.Link>
                         <Nav.Link onClick={() => { navigateScreen("/about") }}>About</Nav.Link>
 
+                        <Nav.Link onClick={() => {navigateScreen("/modules")}}>Modules</Nav.Link>
                         <Nav.Link onClick={() => { navigateScreen("/contact") }}>Contact</Nav.Link>
                         {/* <Nav.Link href="#">Fee</Nav.Link> */}
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#">
-                                Another action
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#">
-                                Separated link
-                            </NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link onClick={() => { navigateScreen("/faqs") }}>FAQs</Nav.Link>
                     </Nav>
                     <Nav>
                         {/* <Nav.Link href="#deets">Register</Nav.Link> */}
